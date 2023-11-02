@@ -1,0 +1,18 @@
+.sc-clients-overview-section .client,
+.sc-partners-section .partner{
+    display: grid;
+    place-items: center;
+}
+.sc-clients-overview-section .client img,
+.sc-partners-section .partner img{
+    transition: 0.3s;
+    width: 145px;
+}
+.sc-clients-overview-section .client:hover img
+,.sc-partners-section .partner:hover img{
+    transform: scale(1.1);
+}
+.img-animation{
+    -webkit-animation: 10s rotate-animation cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+    animation: 10s rotate-animation cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite
+}
